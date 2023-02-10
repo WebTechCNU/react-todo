@@ -1,0 +1,18 @@
+.addTodo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  &__input{
+    width: calc(100% - 170px);
+    padding: 5px;
+    border: 1px solid #b8b8b8;
+  }
+  &__btn{
+    border: 1px solid #b8b8b8;
+    background: transparent;
+    width: calc(150px);
+    padding: 5px;
+    cursor: pointer;
+  }
+}
